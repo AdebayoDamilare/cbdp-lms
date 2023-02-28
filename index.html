@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Open+Sans:wght@300;400;500;700&family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;500;700&family=Open+Sans:wght@300;400;500;700&family=Roboto:wght@400;500;700&family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet">
+
+
+
+    <title>CBDP | Learning Space</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="./app.js" defer></script>
+  </head>
+
+  <body>
+    <header class="main-header">
+      <div class="header-box">
+        <div class="box">
+          <div class="logo-box">
+            <img class="logo" src="img/cropped-cropped-cbdp_logo_cbdp-3T-190x71.png" alt="cbdp logo" />
+
+          </div>
+          <div class="nav-box">
+            <nav class="main-nav">
+              <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Courses</a></li>
+                <li><a href="">Attendance</a></li>
+                <li><a href="">Quiz</a></li>
+
+              </ul>
+            </nav>
+
+          </div>
+        </div>
+        <div class="log-in-box">
+          <a href="#" class="login-btn">Log-in</a>
+          <a href="#" class="login-btn">Register</a>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main-box">
+        <div class="main-content-box">
+          <h1 class="main-heading">Build Skills With Experts Any Time Anywhere</h1>
+          <p class="main-description">CBDP coding learning space is where students come to get most if what is being
+            taught in class and also to have a basic knowledge of most programming Language to become more efficient and
+            proficient.</p>
+
+          <a href="#" class="course-link">Start Learning</a>
+        </div>
+
+        <div class="illustration-box">
+          <img class="illustration-img" src="img/1.png" alt="illustration of a boy with the computer">
+        </div>
+      </div>
+
+    </main>
+
+    <section class="section-courses">
+
+      <div class="courses-box">
+        <div class="course-1">
+          <div class="course-img-box">
+            <p class="course-main-text">HTML</p>
+          </div>
+
+          <div class="text-centering">
+
+            <p class="course-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt cupiditate
+              consectetur perferendis dolorem aliquid qui eos ipsum excepturi quis vel. In at dignissimos, repellat nemo
+              dicta autem iste temporibus! Nisi!</p>
+            <div class="link-box">
+              <a href="html-courses.html" class="start-link">Start</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="course-1">
+          <div class="course-img-box">
+            <p class="course-main-text">CSS</p>
+          </div>
+
+          <div class="text-centering">
+
+            <p class="course-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt cupiditate
+              consectetur perferendis dolorem aliquid qui eos ipsum excepturi quis vel. In at dignissimos, repellat nemo
+              dicta autem iste temporibus! Nisi!</p>
+            <div class="link-box">
+              <a href="css-courses.html" class="start-link">Start</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="course-1">
+          <div class="course-img-box">
+            <p class="course-main-text">JavaScript</p>
+          </div>
+
+          <div class="text-centering">
+
+            <p class="course-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt cupiditate
+              consectetur perferendis dolorem aliquid qui eos ipsum excepturi quis vel. In at dignissimos, repellat nemo
+              dicta autem iste temporibus! Nisi!</p>
+            <div class="link-box">
+              <a href="javascript-courses.html" class="start-link">Start</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="attendance-box">
+
+      <section class="section-attendance">
+        <form id="attendance__form">
+          <div class="form-group">
+            <label for="fullname" class="attendance__label">Full Name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name"
+              class="attendance__input">
+          </div>
+          <div class="form-group"><label for="attendance" class="attendance__label left">Check to mark
+              attendance</label>
+            <input type="checkbox" id="attendance" class="attendance__checkbox" name="checkbox">
+          </div>
+          <button type="submit" class="attendance__button">Submit
+          </button>
+        </form>
+        <div class="error hidden">An error occured <span><button class="close__modal"><ion-icon class="modal-control"
+                name="close"></ion-icon></button></span></div>
+        <div class="success hidden">Success</div>
+      </section>
+    </div>
+
+    <footer>
+      Copyright &copy; 2023 by CBDP. Part of "Build Responsive
+      Real-World Websites with HTML,CSS and JAVASCRIPT" online course. Use for learning
+      purposes only.
+    </footer>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+  </body>
+
+</html>
